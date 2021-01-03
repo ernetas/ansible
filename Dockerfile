@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:rolling
 RUN apt-get update && \
     apt-get dist-upgrade -y && \
     apt-get install software-properties-common -y && \
