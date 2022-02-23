@@ -2,6 +2,7 @@ FROM ubuntu:rolling
 RUN apt-get update -qq && \
     apt install -y \
       unzip \
+      git \
       ssh \
       software-properties-common \
       python3-boto3 \
