@@ -1,4 +1,5 @@
 FROM ubuntu:rolling
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq && \
     apt install -y \
       unzip \
